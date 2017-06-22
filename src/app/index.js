@@ -34,8 +34,9 @@ var TodoComponent = React.createClass({
     }.bind(this));
     return(
       <div id='todo-list'>
-      <Link to={'/about'}>About</Link>
-          <p> The busiest people have the most leisure...</p>
+      <Link to={'/about'} id="link">More</Link>
+          <p>Multitasking 101: How to get a lot of shit done
+          in not a lot of time</p>
           <ul>
             {todos}
           <AddItem onAdd={this.onAdd}/>

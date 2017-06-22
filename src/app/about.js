@@ -5,7 +5,7 @@ var About = React.createClass({
  render: function(){
    return(
         <div>
-          <Link to={'/'}>Home</Link>
+          <Link to={'/'} id="homeLink">Home</Link>
           <h2> All about me </h2>
         </div>
   );

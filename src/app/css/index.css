@@ -1,7 +1,9 @@
 /* index.css */
 
 body{
-  background: #eee;
+  background-image:url('https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 20px;
   font-family: tahoma;
 }
@@ -9,8 +11,8 @@ body{
 #todo-wrapper{
   width: 80%;
   margin: 0 auto;
-  background: #fff;
-  border-top: 3px solid #7f4cc1;
+  background: rgba(255,255,255,0.6);
+  border-top: 3px solid black;
   padding: 10px;
   border-radius: 2px;
   box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
@@ -26,4 +28,8 @@ body{
   list-style-type: none;
   padding: 0;
 }
-
+#link, #homeLink{
+  color: pink;
+  font-size: 13px;
+ /* text-decoration-line: none;*/
+}
