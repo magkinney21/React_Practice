@@ -22,7 +22,7 @@ var App = React.createClass({
 var TodoComponent = React.createClass({
   getInitialState: function(){
     return {
-      todos: ['shower','eat','take a nap','go to meet up']
+      todos: ['Shower','Eat','Take a nap','Go to meet up']
     }
   },
   render: function(){
@@ -38,7 +38,7 @@ var TodoComponent = React.createClass({
           <p>Multitasking 101: How to get a lot of shit done
           in not a lot of time</p>
           <ul>
-            {todos}
+            <a>{todos}</a>
           <AddItem onAdd={this.onAdd}/>
           </ul>
       </div>
