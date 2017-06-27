@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build",
-    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback"
-    "deploy" : "npm run build&&gh-pages -d build"
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback",
+    "deploy":"npm run build&&gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/magkinney21/react_practice/issues"
   },
-  "homepage": "https://github.com/magkinney21/react_practice#readme",
+  "homepage": "https://github.com/magkinney21/react_practice",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
