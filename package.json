@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/magkinney21/react_practice/issues"
   },
-  "homepage": "https://github.com/magkinney21/react_practice",
+  "homepage": "https://magkinney21.github.io/react_practice/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
